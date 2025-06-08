@@ -78,11 +78,11 @@ Create a schema named FWRP in MySQL or PostgreSQL
 
 Import the schema and sample data
 
-Set up Environment (if applicable):
+### Set up Environment (if applicable)
 
-env
-Copy
-Edit
+Create a `.env` file in the server directory and add the following:
+
+```env
 DB_URL=jdbc:mysql://localhost:3306/FWRP
 DB_USER=your_username
 DB_PASSWORD=your_password
