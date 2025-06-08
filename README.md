@@ -87,9 +87,11 @@ DB_URL=jdbc:mysql://localhost:3306/FWRP
 DB_USER=your_username
 DB_PASSWORD=your_password
 
-### 🛠️ Build the Project
 
+🛠️ Build the Project
 Use Maven to build the entire project:
 
-```bash
+bash
+Copy
+Edit
 mvn clean install
