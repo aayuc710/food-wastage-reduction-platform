@@ -77,7 +77,7 @@ Create a schema named FWRP in MySQL or PostgreSQL
 
 Import the schema and sample data
 
-### Set up Environment (if applicable)
+3. Set up Environment (if applicable)
 
 Create a `.env` file in the server directory and add the following:
 
@@ -87,7 +87,7 @@ DB_USER=your_username
 DB_PASSWORD=your_password
 ```
 
-## 🛠️ Build the Project
+4. Build the Project
 Use Maven to build the entire project:
 
 ```bash
