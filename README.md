@@ -2,7 +2,6 @@
 
 The Food Waste Reduction Platform (FWRP) addresses the global issue of food waste by providing a solution that connects **food retailers**, **consumers**, and **charitable organizations**. It promotes sustainability, reduces hunger, and enhances food redistribution by facilitating surplus food sharing.
 
-This project is developed as part of the **CST – 8288 Final Project**.
 
 ---
 
@@ -72,7 +71,7 @@ Database includes sample datasets for testing.
    ```bash
    git clone https://github.com/yourusername/fwrp-project.git
    cd fwrp-project
-Configure the Database:
+2. Configure the Database:
 
 Create a schema named FWRP in MySQL or PostgreSQL
 
@@ -88,7 +87,7 @@ DB_USER=your_username
 DB_PASSWORD=your_password
 ```
 
-🛠️ Build the Project
+## 🛠️ Build the Project
 Use Maven to build the entire project:
 
 ```bash
@@ -97,7 +96,7 @@ mvn clean install
 Run the Server:
 Deploy to a servlet container (e.g. Tomcat)
 
-🔍 Version Control
+## 🔍 Version Control
 GitHub Usage
 Repository created and managed by Team Lead
 
@@ -116,14 +115,14 @@ Submit features via PRs
 
 Team Lead reviews and merges
 
-🧪 Testing
+## 🧪 Testing
 All major features include JUnit tests
 
 Test package is maintained separately from main codebase
 
 Covers: registration, inventory, listing, claiming, purchasing, notifications
 
-🧰 Technologies & Tools
+## 🧰 Technologies & Tools
 Category	Tools/Technologies
 Programming Language	Java / J2EE
 Web Technologies	Servlets, JSP
