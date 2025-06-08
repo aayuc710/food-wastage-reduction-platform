@@ -86,37 +86,10 @@ Create a `.env` file in the server directory and add the following:
 DB_URL=jdbc:mysql://localhost:3306/FWRP
 DB_USER=your_username
 DB_PASSWORD=your_password
-Build the Project:
 
-bash
-Copy
-Edit
+### 🛠️ Build the Project
+
+Use Maven to build the entire project:
+
+```bash
 mvn clean install
-Run the Server:
-Deploy to a servlet container (e.g. Tomcat)
-
-🔍 Version Control
-GitHub Usage
-Repository created and managed by Team Lead
-
-Each team member works on their own branch
-
-Code is submitted via pull requests
-
-Pull requests are reviewed and merged by the Team Lead
-
-GitHub Workflow
-Team Lead creates the repo
-
-Members clone the repo & work in branches
-
-Submit features via PRs
-
-Team Lead reviews and merges
-
-🧪 Testing
-All major features include JUnit tests
-
-Test package is maintained separately from main codebase
-
-Covers: registration, inventory, listing, claiming, purchasing, notifications
